@@ -15,12 +15,12 @@ class PropertiesController extends Controller
      */
     public function index()
     {
-        return view('pages.properties');
+        return view('frontend.pages.properties');
     }
 
     public function single_property()
     {
-        return view('pages.single_property');
+        return view('frontend.pages.single_property');
     }
     /**
      * Show the form for creating a new resource.
